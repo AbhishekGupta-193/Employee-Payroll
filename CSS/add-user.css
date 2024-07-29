@@ -1,0 +1,113 @@
+body{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+    margin: auto; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F7F7F7;
+}
+.navbar{
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    background-color: #FFFFFF;
+    /* width: 75%; */
+    margin: auto;
+    /* border: 2px solid red; */
+
+}
+.nav_box{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.nav_box img{
+    /* border: 2px solid #82A70C; */
+     width: 30px; 
+    height: 30px; 
+}
+
+.form-box{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(237, 231, 231);
+    border-radius: 5px;
+    color: #42515F;
+}
+form{
+    /* border: 2px solid black; */
+    height: 420px;
+
+
+}
+.form_title{
+    margin-left: 8%;
+    padding-top: 2%;
+    /* border: 2px solid red; */
+
+}
+.attributes{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 13px;
+
+}
+
+.attributes label{
+    /* border: 2px solid red; */
+    margin-left: 8%;
+    width: 15%;
+
+}
+.attribute_inp{
+    /* border: 2px solid red; */
+    width: 65%;
+    
+}
+
+
+.gender_attribute_inp{
+    width: 65%;
+    
+}
+
+.l-btn{
+    /* border: 2px solid red; */
+    width: 20%;
+    margin-left: 8%;
+
+}
+.r-btn{
+    /* border: 2px solid red; */
+    margin-right: 12%;
+    margin-left: 38%;
+    width: 400%;
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+}
+button{
+    padding: 8px 26px;
+    border: 0.5 px solid #E2E2E2;
+}
+button:hover{
+    background-color: #42515F;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+.submit:hover{
+    background-color: #82A70C;
+}
+select{
+    /* border: 2px solid red; */
+    padding: 8px 20px;
+}

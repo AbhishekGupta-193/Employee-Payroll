@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/add-user.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav_box">
+            <img src="../Assets/logo.png">
+            <h4 style="color: #82A70C;">EMPLOYEE<br>PAYROLL</h4>
+        </div>
+    </nav>
+
+    <div class="form-box">
+        <h3 class="form_title">Employee Payroll Form</h3>
+        <form action="">
+            <div class="attributes">
+                <label for="name">Name</label>
+                <div class="name_attribute_inp">
+                    <input type="text" id="name" required>
+                    <br>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <label for="profile-img">Porfile image</label>
+                <div class="attribute_inp">
+                    <input type="radio" name="img" value="../Assets//Ellipse -1.png"><img
+                        src="../Assets//Ellipse -1.png" width="30px" height="30px">
+                    <input type="radio" name="img" value="../Assets//Ellipse -2.png"><img
+                        src="../Assets//Ellipse -2.png" width="30px" height="30px">
+                    <input type="radio" name="img" value="../Assets//Ellipse -3.png"><img
+                        src="../Assets//Ellipse -3.png" width="30px" height="30px">
+                    <input type="radio" name="img" value="../Assets//Ellipse -4.png"><img
+                        src="../Assets//Ellipse -4.png" width="30px" height="30px">
+                    <br>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <label for="gender">Gender</label>
+                <div class="gender_attribute_inp">
+                    <input type="radio" id="male" name="Gender" value="Male">Male
+                    <input type="radio" id="female" name="Gender" value="Female">Female
+                    <br>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <label for="department">Department</label>
+                <div class="attribute_inp">
+                    <input type="checkbox" class="dept_checkbox" value="HR">HR
+                    <input type="checkbox" class="dept_checkbox" value="Sales">Sales
+                    <input type="checkbox" class="dept_checkbox" value="Finance">Finance
+                    <input type="checkbox" class="dept_checkbox" value="Engineer">Engineer
+                    <input type="checkbox" class="dept_checkbox" value="Others">Others
+                    <br>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <label for="salary">Salary</label>
+                <div class="attribute_inp">
+                    <select id="salary">
+                        <option selected="select" disabled="disabled">Select Salary</option>
+                        <option value="Rs 10,000">Rs 10,000</option>
+                        <option value="Rs 15,000">Rs 15,000</option>
+                        <option value="Rs 20,000">Rs 20,000</option>
+                        <option value="Rs 25,000">Rs 25,000</option>
+                    </select>
+                    <br>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <label for="date">Start Date</label>
+                <div class="attribute_inp">
+                    <select id="day">
+                        <option selected="select" disabled="disabled">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <select id="month">
+                        <option selected="select" disabled="disabled">Month</option>
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="Mar">March</option>
+                        <option value="Apr">April</option>
+                    </select>
+                    <select id="year">
+                        <option selected="select" disabled="disabled">Year</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                    </select>
+                    <br>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <label for="notes">Notes</label>
+                <div class="attribute_inp">
+                    <textarea name="" id=""></textarea>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <div class="l-btn">
+                    <button>Cancel</button>
+                </div>
+                <div class="r-btn">
+                    <button class="submit" oncanplay="getUser()">Submit</button>
+                    <button>Reset</button>
+                </div>
+            </div>
+    </div>
+
+    </form>
+    </div>
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>

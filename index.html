@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Form Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav_box">
+            <img src="./Assets/logo.png">
+            <h4 style="color: #82A70C;">EMPLOYEE<br>PAYROLL</h4>
+        </div>
+    </nav>
+
+    <div class="body_container">
+        <div class="body_title">
+            <div class="emp_details" style="color: #42515F;">Employee Details</div>
+            <div class="functions">
+                <img class="search" src="./Assets/search.jpg" onclick=show_searchBar()>
+                <input type="text" id="search-bar" placeholder="Search..." style="display: none;">
+                <div class="add_user"><a href="./Templates/add-user.html" style="border: none;">+ Add User</a></div>
+            </div>
+        </div>
+        <table class="table" id="employee-table">
+            <thead class="table_attributes">
+                <th class="table_inp">NAME</th>
+                <th class="table_inp">GENDER</th>
+                <th class="table_inp">DEPARTMENT</th>
+                <th class="table_inp">SALARY</th>
+                <th class="table_inp">START DATE</th>
+                <th class="table_inp">ACTIONS</th>
+            </thead>
+            <tbody id="tbl-details">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="./JS/script.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

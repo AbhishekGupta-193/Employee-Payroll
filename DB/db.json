@@ -1,0 +1,58 @@
+{
+  "Employee": [
+    {
+      "url": "Ellipse -1.png",
+      "name": "Ram",
+      "gender": "Male",
+      "department": "Tech",
+      "salary": "₹ 10,000",
+      "startDate": "03-07-2024",
+      "id": "0318"
+    },
+    {
+      "url": "Ellipse -2.png",
+      "name": "Ram",
+      "gender": "Male",
+      "department": "Tech",
+      "salary": "₹ 20,000",
+      "startDate": "03-07-2023",
+      "id": "b13e"
+    },
+    {
+      "url": "Ellipse -3.png",
+      "name": "Ram",
+      "gender": "Male",
+      "department": "Tech",
+      "salary": "₹ 15,000",
+      "startDate": "03-07-2022",
+      "id": "f295"
+    },
+    {
+      "id": "fe30",
+      "url": "../Assets//Ellipse -3.png",
+      "name": "Mayank",
+      "gender": "Male",
+      "department": "Finance",
+      "salary": "Rs 10,000",
+      "startDate": "1 Jan 2020"
+    },
+    {
+      "id": "fcf5",
+      "url": "../Assets//Ellipse -2.png",
+      "name": "Washim",
+      "gender": "Male",
+      "department": "Engineer",
+      "salary": "Rs 15,000",
+      "startDate": "3 Feb 2023"
+    },
+    {
+      "id": "6ed0",
+      "url": "../Assets//Ellipse -2.png",
+      "name": "Washim",
+      "gender": "Male",
+      "department": "Sales",
+      "salary": "Rs 20,000",
+      "startDate": "3 Jan 2020"
+    }
+  ]
+}
