@@ -25,7 +25,7 @@
             <div class="emp_details" style="color: #42515F;">Employee Details</div>
             <div class="functions">
                 <img class="search" src="./Assets/search.jpg" onclick=show_searchBar()>
-                <input type="text" id="search-bar" placeholder="Search..." style="display: none;">
+                <input type="text" id="search-bar" placeholder="Search..." style="display: none;" onkeyup="onSearch()">
                 <div class="add_user"><a href="./Templates/add-user.html" style="border: none;">+ Add User</a></div>
             </div>
         </div>
@@ -46,7 +46,6 @@
 
 
     <script src="./JS/script.js"></script>
-    <script src="./JS/index.js"></script>
 </body>
 
 </html>

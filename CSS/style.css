@@ -73,10 +73,12 @@ body{
 }
 
 #search-bar {
+    border: 2px solid #82A70C;
     width: 200px;
     padding: 5px;
-    border: 1px solid #ccc;
     border-radius: 4px;
+    width: 58%;
+
 }
 
 .add_user{
